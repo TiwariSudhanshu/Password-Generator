@@ -1,0 +1,48 @@
+html{
+    height: 100%;
+    width: 100%;
+    user-select: none;
+}
+
+body{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main{
+    color: orange;
+    border: 2px solid orange;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px orange;
+}
+
+.pass-input{
+    height: 50px;
+    width: 500px;
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+label{
+    font-size: 20px;
+    margin-right: 20px;
+    color: pink;
+}
+input{
+    margin-left: 20px;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#bt{
+    height: 55px;
+    width: 60px;
+    transform: translateY(-4px);
+    background-color: rgb(4, 90, 203);
+    color: white;
+    cursor: pointer;
+}
